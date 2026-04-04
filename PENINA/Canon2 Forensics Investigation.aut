@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2026/04/03 12:57:09 (EAT)</CreatedDate>
+  <ModifiedDate>2026/04/03 12:57:16 (EAT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.22.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.22.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>canon2_forensics_investigation_20260403_125709</Name>
+    <DisplayName>Canon2 Forensics Investigation</DisplayName>
+    <Number>0010</Number>
+    <Examiner>Nakabiri Penina</Examiner>
+    <ExaminerPhone>+256765576502</ExaminerPhone>
+    <ExaminerEmail>peninanakabiri@gmail.com</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>
