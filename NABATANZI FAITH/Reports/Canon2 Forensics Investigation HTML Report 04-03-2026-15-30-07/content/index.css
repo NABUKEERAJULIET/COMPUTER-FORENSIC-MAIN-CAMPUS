@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #F5F7FA;
+    font: 14px/1.6 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+#content {
+    padding: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    padding: 15px 20px;
+    line-height: 1.4;
+    background: linear-gradient(135deg, #07A 0%, #005f8a 100%);
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#pageHeaderFooter {
+    width: 100%;
+    padding: 12px;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    background: #f0f0f0;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #07A;
+    padding: 0 0 10px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #07A;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #07A;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #07A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    background: #07A;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 0 10px 25px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+ul.nav {
+    list-style-type: none;
+    line-height: 40px;
+    padding: 0px;
+    margin-left: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+ul li a {
+    font-size: 14px;
+    color: #07A;
+    text-decoration: none;
+    padding-left: 30px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #005f8a;
+    padding-left: 35px;
+}
+
+p {
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+}
+
+/* Table Styles - Improved */
+table {
+    white-space: nowrap;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow-x: auto;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Responsive table container */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    table td, table th {
+        padding: 6px 8px;
+    }
+}
+
+.keyword_list table {
+    margin: 0 0 25px 0;
+    border: 1px solid #e0e0e0;
+}
+
+table th {
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 12px;
+    background: #07A;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+table .left_align_cell {
+    display: table-cell;
+    padding: 8px 12px;
+    font: 13px/1.5 Arial, Helvetica, sans-serif;
+    min-width: 120px;
+    overflow: auto;
+    text-align: left;
+}
+
+table .right_align_cell {
+    display: table-cell;
+    padding: 8px 12px;
+    font: 13px/1.5 Arial, Helvetica, sans-serif;
+    min-width: 120px;
+    overflow: auto;
+    text-align: right;
+}
+
+table td {
+    white-space: nowrap;
+    display: table-cell;
+    padding: 8px 12px;
+    font: 13px/1.5 'Segoe UI', Arial, Helvetica, sans-serif;
+    min-width: 100px;
+    overflow: auto;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+}
+
+/* Zebra striping for better readability */
+table tr:nth-child(even) td {
+    background: #F8F9FA;
+}
+
+table tr:hover td {
+    background: #E8F4FD;
+    transition: background 0.2s ease;
+}
+
+/* First column styling for better emphasis */
+table td:first-child,
+table th:first-child {
+    font-weight: 500;
+    background-color: #FAFAFA;
+}
+
+table tr:hover td:first-child {
+    background-color: #E0F0FA;
+}
+
+/* Thumbnail link styling */
+div#thumbnail_link {
+    max-width: 250px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    background: #f5f5f5;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+/* Additional utility classes */
+.tag {
+    display: inline-block;
+    background: #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #555;
+}
+
+.highlight {
+    background-color: #FFF3CD;
+    color: #856404;
+}
+
+/* Scrollable table for mobile */
+.table-wrapper {
+    overflow-x: auto;
+    margin: 15px 0;
+}
+
+/* Footer spacing */
+#pageHeaderFooter:first-of-type {
+    border-bottom: 1px solid #ddd;
+}
+
+#pageHeaderFooter:last-of-type {
+    margin-top: 30px;
+}
